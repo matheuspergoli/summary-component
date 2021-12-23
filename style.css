@@ -143,7 +143,11 @@ body {
     color: var(--dark-blue);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
+    body {
+        padding: 15px;
+    }
+
     .main-content {
         width: 335px;
     }
