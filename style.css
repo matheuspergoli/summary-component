@@ -103,3 +103,9 @@ section {
     text-decoration: none;
     color: var(--desaturated-blue);
 }
+
+@media (min-width: 320px) {
+    .main-container {
+        width: 340px;
+    }
+}
