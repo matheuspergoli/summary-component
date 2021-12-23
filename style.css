@@ -142,3 +142,13 @@ body {
 .third-link:hover {
     color: var(--dark-blue);
 }
+
+@media (max-width: 375px) {
+    .main-content {
+        width: 335px;
+    }
+
+    .main-img {
+        background-size: cover;
+    }
+}
