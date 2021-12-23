@@ -13,7 +13,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    cursor: default;
 }
 
 *::selection {
@@ -38,6 +37,7 @@ body {
     width: 400px;
     height: 600px;
     border-radius: 15px;
+    cursor: default;
     background-color: var(--very-pale-blue);
 }
 
@@ -101,7 +101,6 @@ body {
 }
 
 .first-link:hover {
-    cursor: pointer;
     text-decoration: none;
     color: hsla(245, 75%, 52%, 0.50);
 }
@@ -124,8 +123,21 @@ body {
 }
 
 .second-link {
-    cursor: pointer;
     padding: 15px 80px;
     text-decoration: none;
     color: var(--very-pale-blue);
+}
+
+.link-wrap {
+    text-align: center;
+}
+
+.third-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--desaturated-blue);
+}
+
+.third-link:hover {
+    color: var(--dark-blue);
 }
