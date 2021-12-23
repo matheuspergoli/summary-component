@@ -121,26 +121,21 @@ body {
 }
 
 .button:hover {
+    cursor: pointer;
     background-color: hsla(245, 75%, 52%, 0.70);
-}
-
-.second-link {
-    padding: 15px 80px;
-    text-decoration: none;
-    color: var(--very-pale-blue);
 }
 
 .link-wrap {
     text-align: center;
 }
 
-.third-link {
+.second-link {
     text-decoration: none;
     font-weight: 600;
     color: var(--desaturated-blue);
 }
 
-.third-link:hover {
+.second-link:hover {
     color: var(--dark-blue);
 }
 
