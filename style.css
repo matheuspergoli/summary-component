@@ -145,12 +145,9 @@ body {
 }
 
 @media (max-width: 500px) {
-    body {
-        padding: 25px;
-    }
-
     .main-content {
         width: 335px;
+        transform: translateX(-50%) translateY(-0%);
     }
 
     .main-img {
