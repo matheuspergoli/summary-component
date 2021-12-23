@@ -116,6 +116,7 @@ body {
     border-radius: 10px;
     color: var(--very-pale-blue);
     background-color: var(--bright-blue);
+    box-shadow: 5px 5px 30px 5px var(--desaturated-blue);
 }
 
 .button:hover {
