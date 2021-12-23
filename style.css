@@ -33,7 +33,7 @@ body {
 .main-container {
     position: absolute;
     left: 50%;
-    transform: translateY(30%) translateX(-50%);
+    transform: translateY(20%) translateX(-50%);
     width: 400px;
     height: 500px;
     border-radius: 15px;
@@ -101,5 +101,5 @@ section {
 
 .link:hover {
     text-decoration: none;
-    color: var(--desaturated-blue);
+    color: hsla(245, 75%, 52%, 0.6);
 }
